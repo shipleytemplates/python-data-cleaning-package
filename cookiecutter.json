@@ -1,7 +1,7 @@
 {
-  "project_name": "project_name",
+  "project_name": "Project Name",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-  "full_name": "{{ cookiecutter.full_name }}",
-  "email": "{{ cookiecutter.email }}",
+  "full_name": "Garrett Shipley",
+  "email": "",
   "description": ""
 }
