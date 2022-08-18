@@ -6,6 +6,7 @@ authors = ["{{ cookiecutter.full_name }} <{{ cookiecutter.email }}>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+typer = "^0.6.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
@@ -15,3 +16,6 @@ pre-commit = "^2.20.0"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+{{ cookiecutter.project_slug }} = "{{ cookiecutter.project_slug }}.cli:app"
